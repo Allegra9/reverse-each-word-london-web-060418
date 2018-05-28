@@ -13,6 +13,18 @@ end
 #.collect
 
 def reverse_each_word(str)
+  str = str.split " "
+  #print str
+  str.collect do |word|
+    word = word.reverse
+    word = word.split " "
+    word = word.join " "
+    word 
+    print word
+  end 
+end
+
+def reverse_each_word(str)
   str = str.split 
   str.collect do |word|
     word = word.reverse 
@@ -20,3 +32,5 @@ def reverse_each_word(str)
   str.join " "
   str
 end 
+
+
