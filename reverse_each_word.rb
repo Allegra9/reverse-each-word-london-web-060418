@@ -6,7 +6,7 @@ def reverse_each_word(str)
     word = word.reverse 
     new_str << word
   end
-  new_str 
+  new_str.join 
 end 
 
 #.each
