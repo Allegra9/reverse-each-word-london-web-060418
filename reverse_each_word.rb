@@ -24,13 +24,13 @@ def reverse_each_word(str)
   end 
 end
 
-def reverse_each_word(str)
-  str = str.split 
-  str.collect do |word|
-    word = word.reverse 
-  end 
-  str.join " "
-  str
-end 
+# def reverse_each_word(str)
+#   str = str.split 
+#   str.collect do |word|
+#     word = word.reverse 
+#   end 
+#   str.join " "
+#   str
+# end 
 
 
