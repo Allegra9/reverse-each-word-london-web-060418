@@ -3,8 +3,8 @@ def reverse_each_word(str)
   str 
   new_str = []
   str.each do |word|
-    word.reverse 
-  
+    word = word.reverse 
+    new_str << word
 end
 
 #.each
