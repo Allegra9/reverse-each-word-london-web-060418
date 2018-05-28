@@ -5,7 +5,9 @@ def reverse_each_word(str)
   str.each do |word|
     word = word.reverse 
     new_str << word
-end
+  end
+  new_str 
+end 
 
 #.each
 #.collect
